@@ -75,37 +75,37 @@ def game():
     # Same Input = Tie
 
     if compinp == userinp:
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, It's a tie!")
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, It's a tie!")
         playagain()
 
     # Snake Drinks Water
 
-    elif compinp == "Snake" and userinp == "Water" or userinp == "water":
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, Computer Won!")
+    elif compinp == "Snake" and userinp == "Water":
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, Computer Won!")
         playagain()
 
-    elif compinp == "Water" and userinp == "Snake" or userinp == "snake":
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, You Won!")
+    elif compinp == "Water" and userinp == "Snake":
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, You Won!")
         playagain()
 
     # Gun Killed Snake
 
-    elif compinp == "Gun" and userinp == "Snake" or userinp == "snake":
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, Computer Won!")
+    elif compinp == "Gun" and userinp == "Snake":
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, Computer Won!")
         playagain()
 
-    elif compinp == "Snake" and userinp == "Gun" or userinp == "gun":
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, You Won!")
+    elif compinp == "Snake" and userinp == "Gun":
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, You Won!")
         playagain()
 
     # Water Damaging Gun
 
-    elif compinp == "Water" and userinp == "Gun" or userinp == "gun":
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, Computer Won!")
+    elif compinp == "Water" and userinp == "Gun":
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, Computer Won!")
         playagain()
 
-    elif compinp == "Gun" and userinp == "Water" or userinp == "water":
-        print(f"Computer's input was {compinp}\nYour input was {userinp.title()}\nSo, You Won!")
+    elif compinp == "Gun" and userinp == "Water":
+        print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, You Won!")
         playagain()
 
     # Invalid Input
