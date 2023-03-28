@@ -6,7 +6,7 @@ from random import choice
 
 # Welcome
 
-print("Welcome to Snake, Water, Gun")
+print("Welcome to SNAKE, WATER, GUN Game")
 
 
 # Start Input with if else
@@ -80,31 +80,31 @@ def game():
 
     # Snake Drinks Water
 
-    elif compinp == "Snake" and userinp == "Water":
+    elif compinp == "Snake" and userinp == "Water" or userinp == "water":
         print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, Computer Won!")
         playagain()
 
-    elif compinp == "Water" and userinp == "Snake":
+    elif compinp == "Water" and userinp == "Snake" or userinp == "snake":
         print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, You Won!")
         playagain()
 
     # Gun Killed Snake
 
-    elif compinp == "Gun" and userinp == "Snake":
+    elif compinp == "Gun" and userinp == "Snake" or userinp == "snake":
         print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, Computer Won!")
         playagain()
 
-    elif compinp == "Snake" and userinp == "Gun":
+    elif compinp == "Snake" and userinp == "Gun" or userinp == "gun":
         print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, You Won!")
         playagain()
 
     # Water Damaging Gun
 
-    elif compinp == "Water" and userinp == "Gun":
+    elif compinp == "Water" and userinp == "Gun" or userinp == "gun":
         print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, Computer Won!")
         playagain()
 
-    elif compinp == "Gun" and userinp == "Water":
+    elif compinp == "Gun" and userinp == "Water" or userinp == "water":
         print(f"Computer's input was {compinp}\nYour input was {userinp}\nSo, You Won!")
         playagain()
 
